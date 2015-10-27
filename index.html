@@ -11,16 +11,25 @@
     <div class="content">
         
         <form action="">
-            <input type="text" placeholder="Item">
-            <input type="number" placeholder="amount">
-            <button id="add">Add</button>
+            <input id="shopItems" type="text" placeholder="Item">
+            <input id="itemAmount" type="number" placeholder="amount">
+            <input id="itemCost" type="text" placeholder ="cost">
+            
+                   <button id="add">Add</button>
             
         </form>
         
         <ul class='items'>
               
         </ul>
-       
+         <div>
+          <span>
+           Total Cost: $
+           </span>
+            <span id="totalCost">
+                 0
+            </span>
+        </div>
     </div>
 </body>
 </html>
